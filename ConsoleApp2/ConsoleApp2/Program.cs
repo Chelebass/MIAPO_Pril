@@ -25,5 +25,11 @@ namespace ConsoleApp2
             double aANDb = a + b;
             return aANDb;
         }
+
+        public static double returnUmn(double a, double b)
+        {
+            double aANDb = a * b;
+            return aANDb;
+        }
     }
 }
