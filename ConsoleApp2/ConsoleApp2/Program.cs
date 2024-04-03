@@ -7,5 +7,11 @@ namespace ConsoleApp2
         {
             
         }
+        
+        public static double returnUmn(double a, double b)
+        {
+            double aANDb = a * b;
+            return aANDb;
+        }
     }
 }
