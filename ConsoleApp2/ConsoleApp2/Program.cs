@@ -12,11 +12,17 @@ namespace ConsoleApp2
             double aANDb = a / b;
             return aANDb;
         }
-        
-        
+
+
         public static double returnMin(double a, double b)
         {
             double aANDb = a - b;
+            return aANDb;
+        }
+
+        public static double returnPlus(double a, double b)
+        {
+            double aANDb = a + b;
             return aANDb;
         }
     }
